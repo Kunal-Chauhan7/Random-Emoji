@@ -1,0 +1,36 @@
+body{
+    background-color: peachpuff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    padding-top: 25vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    text-align: center;
+}
+
+#emobtn{
+    border-radius: 10px;
+    padding: 20px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: royalblue;
+    color: white;
+}
+
+p{
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+#emobtn:active{
+    transform: scale(0.98);
+}
