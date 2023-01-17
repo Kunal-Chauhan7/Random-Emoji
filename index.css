@@ -24,6 +24,7 @@ h2{
     font-weight: bold;
     background-color: royalblue;
     color: white;
+    cursor: pointer;
 }
 
 p{
